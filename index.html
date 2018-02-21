@@ -1,14 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Github.io</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <title>Tim Ruiterkamp || portfolio</title>
 </head>
+
 <body>
-    <h1> Github page</h1>
-    <p> Welcome to my github page, it needs a little styling but then it will be perfect.</p>
+  <header>
+    <div class="header-bg"></div>
+    <div class="header-inner">
+      <img src="./assets/img/tim.jpg" alt="Tim Ruiterkamp">
+      <div class="metadata">
+        <h1>Tim Ruiterkamp</h1>
+        <p>Front-end developer</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about">
+      <h2>Wie is Tim Ruiterkamp?</h2>
+      <article>
+        <h3>Over mij</h3>
+        <p>
+          <strong>21 jaar oud | Omgeving Amsterdam |
+            <Br />Studeert Communication & Multimedia Design</strong>
+        </p>
+
+        <p>Ik ben Tim, 21 jaar oud en bezig om mij te specialiseren tot front-end developer. Tijdens mijn studies ben ik erachter
+          gekomen dat bij het ontwikkelen van websites en applicaties mijn interesse ligt. Prachtige designs omzetten tot
+          functionerende websites waarbij gebruiksgemak en toegankelijkheid vooropstaan zijn onderdelen waar ik blij van
+          word. Uitdagingen ga ik graag aan, dus mocht je een uitdaging hebben..
+          <a href="mailto:timruiterkamp@gmail.com?Subject=Hey%20Tim%20🚀">Mailen kan altijd</a> 🚀
+        </p>
+      </article>
+
+      <article>
+        <h3>Skills</h3>
+        <p>
+          <strong>Programma's en methodes waarmee ik werk:</strong>
+        </p>
+        <ul>
+          <li>HTML5 / CSS3 / SASS / Javascript</li>
+          <li>Bezig met: Node.js / React.js </li>
+          <li>Ionic / Wordpress / Git / Gulp</li>
+          <li>BEM / SMACSS</li>
+          <li>Adobe XD / Sketch / InDesign</li>
+        </ul>
+        <p>
+          <strong>Mijn favoriete dev tools zijn:</strong>
+        </p>
+        <ul>
+          <li>Visual Studio code</li>
+          <li>Iterm</li>
+          <li>Github</li>
+        </ul>
+      </article>
+
+
+
+      <div class="social">
+        <a class="social" href="https://www.linkedin.com/in/timruiterkamp/" target="_blank">Bekijk mijn Linkedin profiel</a>
+        <a class="social" href="https://github.com/timruiterkamp" target="_blank">Bekijk mijn github profiel</a>
+      </div>
+    </section>
+
+    <section class="websites">
+      <div class="websites-inner">
+        <h2>Mijn laatste projecten</h2>
+        <article>
+          <img src="./assets/img/likemeat.png" alt="Likemeat">
+          <h3>LikeMeat</h3>
+          <p>LikeMeat is een groot duits bedrijf dat vleesvervangende producten maakt. Ik heb de complete website gebouwd en
+            ontwikkel nog steeds verder. De website trekt gemiddeld 25.000+ bezoekers per maand.</p>
+          <a href="https://likemeat.de" target="_blank">Bekijk de website</a>
+        </article>
+
+        <article>
+          <img src="./assets/img/socializedirect.png" alt="SocializeDirect">
+          <h3>Socialize Direct</h3>
+          <p>Socialize Direct is een platform waar influencers en bedrijven met elkaar in contact kunnen komen. Het bedrijf
+            richt zich op het toegankelijk maken van de influenver wereld voor kleinere bedrijven. De website heb ik zowel
+            ontworpen als gebouwd.</p>
+          <a href="https://socializedirect.nl" target="_blank">Bekijk de website</a>
+        </article>
+
+        <article>
+          <img src="./assets/img/smilead.png" alt="Smile Ad">
+          <h3>SmileAd</h3>
+          <p>SmileAd is een bedrijf dat interactieve reclamecampaignes maakt en hierbij altijd streeft naar een samenwerking
+            met een lach. De website heb ik zowel ontworpen als gebouwd.</p>
+          <a href="https://smilead.nl" target="_blank">Bekijk de website</a>
+        </article>
+
+        <article>
+          <img src="./assets/img/askin.png" alt="Askin">
+          <h3>Askin</h3>
+          <p>Askin richt zich op de mobiliteitsoplossingen en europeses aanbestedingen. De website van Askin heb ik zowel ontworpen
+            als gebouwd.</p>
+          <a href="https://askin.nu" target="_blank">Bekijk de website</a>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="contact" id="particles-js">
+      <article>
+        <button>
+          <a href="mailto:timruiterkamp@gmail.com?Subject=Hey%20Tim%20🚀" target="_top">Neem direct contact op! 🚀</a>
+        </button>
+      </article>
+    </section>
+  </main>
+
+  <Footer>
+    <p>Copyright Tim Ruiterkamp 2018</p>
+  </Footer>
+
+  <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
