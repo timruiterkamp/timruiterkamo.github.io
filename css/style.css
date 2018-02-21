@@ -161,6 +161,13 @@ section.about p.summary {
   font-weight: 700;
 }
 
+section.about span,
+section.about a {
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+}
+
 section.about article a {
   text-decoration: underline;
   color: var(--black);
@@ -297,9 +304,8 @@ section.contact #particles-js {
 }
 
 section.contact button {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
+  margin: 0 1em;
+  height: 4rem;
   background: #1fe4b8;
   border-radius: 0.625rem;
   color: var(--header-color);
@@ -328,11 +334,27 @@ section.contact article {
 }
 
 footer {
-  background-color: var(--black-light);
+  background: var(--red-hover);
   color: var(--header-color);
   padding: 1.5rem 0;
 }
 
-footer p {
+footer p,
+footer a {
   text-align: center;
+  color: var(--header-color);
+  margin: 0 auto;
+}
+footer a {
+  margin: 1.25em 0.5em;
+}
+
+footer a:hover {
+  text-decoration-color: #000;
+}
+
+footer .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
