@@ -73,6 +73,32 @@ header .header-inner {
   display: flex;
 }
 
+@media screen and (max-width: 60em) {
+  header .header-inner {
+    max-width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header h1 {
+    font-size: 2.25rem !important;
+    margin-top: 25px !important;
+    t: center;
+  }
+  header p {
+    font-size: 1.75rem !important;
+    text-align: center;
+  }
+  section.websites h2 {
+    text-align: center;
+  }
+  section.websites,
+  section.contact {
+    margin-left: 0 !important;
+  }
+}
+
 header .metadata {
   display: flex;
   flex-direction: column;
